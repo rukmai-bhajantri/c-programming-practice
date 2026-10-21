@@ -1,18 +1,18 @@
 #include<stdio.h>
 void main(){
-    int n,num=2,factors,i,count=0;
+    int n,num=2,i,count=0,foctors;
     printf("Enter value of number:\n");
-    scanf("%d",&n);
+    scanf("%d",n);
 
-    while(count<n){
-        factors=0;
+    while(count<=n){
+        foctors=0;
         for(i=1;i<=num;i++){
             if(num%i==0){
-                factors++;
+                foctors++;
             }
         }
-        if(factors==2){
-            printf(" %d",num);
+        if(foctors==2){
+            printf("%d",num);
             count++;
         }
         num++;
