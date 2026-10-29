@@ -4,7 +4,7 @@ void main(){
     printf("Enter value of number: ");
     scanf("%d",&num);
     if(num<0){
-        printf("Eror! only possitive number are allowed:\n");
+        printf("Eror! only possitive number are allowed 😑\n");
     }
     else{
         for(i=1;i<=num;i++){
